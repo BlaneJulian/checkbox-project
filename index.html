@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <div class="container-fluid">
+    <h1>Stress Test</h1>
+    <form id="stresstest">
+    <div class="form-group">
+    <p>In the past year, have you experienced these warning signs of stress?</p>
+      <input type="checkbox" name="symptom" value="sleeploss">Difficulty sleeping<br>
+      <input type="checkbox" name="symptom" value="overwhelmed">Feeling overwhelmed<br>
+      <input type="checkbox" name="symptom" value="irritability">Irritability<br>
+      <input type="checkbox" name="symptom" value="Loss of apetite">Loss of apetite<br>
+      <input type="checkbox" name="symptom" value="Crying">Crying<br>
+      <input type="checkbox" name="symptom" value="nailbiting">Nailbiting<br>
+      <p>In the past year, have you experienced these health symptoms of stress?</p>
+      <input type="checkbox" name="symptom" value="weight">Weight gain/loss<br>
+      <input type="checkbox" name="symptom" value="headache">Headache<br>
+      <input type="checkbox" name="symptom" value="pain">Chronic pain<br>
+      <input type="checkbox" name="symptom" value="palpitations">Heart palpitations<br>
+      <input type="checkbox" name="symptom" value="breath">Shortness of breath<br>
+      <input type="checkbox" name="symptom" value="ulcer">Stomach ulcer<br>
+      <p>In the past year, have you used these coping methods to combat stress?</p>
+      <input type="checkbox" name="symptom" value="swimming">Swimming<br>
+      <input type="checkbox" name="symptom" value="petacat">Pet a cat<br>
+      <input type="checkbox" name="symptom" value="meditate">Meditation<br>
+      <input type="checkbox" name="symptom" value="music">Listen to music<br>
+      <input type="checkbox" name="symptom" value="sleep">Relaxation<br>
+      <input type="checkbox" name="symptom" value="pray">Prayer<br>
+    </div>
+    <button type="submit" class="btn">Submit Questionnaire</button>
+  </form>
+  <span id="test-response">
+  <p><b>Your stress test indicates that you are:</b></p>
+</span>
+<span id="goodnews">
+<p><b>not very stressed at all. You don't really need our assistance.</b></p>
+</span>
+<span id="OK">
+<p><b>experiencing some stress, but you're also using some of the coping strategies to resolve the issue.</b></p>
+</span>
+<span id="badnews">
+<p><b>very stressed and requiring of help soon.</b></p>
+</span>
+  </div>
+
+</body>
+
+</html>
